@@ -1,0 +1,546 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchical Expandable List</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            color: blue;
+            font-weight: bold;
+            font-size: 1.2em; /
+
+        }
+        .nested-list {
+            color: black;
+            display: block;
+            margin-top: 10px;
+        }
+        .details {
+            display: none;
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .nested-list li {
+            border: 1px solid #aaa;
+            color: black;
+            font-size: 0.8em; /* Smaller font size for the second hierarchy */
+        }
+        pre {
+    	    font-family: "Open Sans", sans-serif;
+            font-size: 1.15em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mitsing Konzert 2025</h1>
+
+    <ul>
+
+
+<h2>N_cards = 8</h2><h2>Sorted by artist (N = 3)</h2>
+
+        <li onclick="toggleDetails(this)">
+            Beatles<div> (3)
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	<div>
+Imagine (mitsing)
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	<div>
+Imagine (mitsing)	<div><div><div><div><a href=https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=07d245472b3b4488>https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=07d245472b3b4488</a><div>
+<div>Artist: Beatles<div>
+<div>
+key: C<div>
+tempo: 85bpm<div>
+I     Imaj7       IV (chromatic back to root)<div>IV    vi      ii     IV      V     V7 (walk down bass)<div>IV     V     I     V(vi)<div>
+<div>Imagine there's no heaven
+<div><div>It's easy if you try<div>No hell below us<div>Above us, only sky<div>Imagine all the people<div>Livin' for today<div>
+<div>Imagine there's no countries<div>It isn't hard to do<div>Nothing to kill or die for<div>And no religion, too<div>Imagine all the people<div>Livin' life in peace<div>
+<div>You may say I'm a dreamer
+<div>But I'm not the only one<div>I hope someday you'll join us<div>And the world will be as one<div>
+Imagine no possessions<div>I wonder if you can<div>No need for greed or hunger<div>A brotherhood of man<div>Imagine all the people<div>Sharing all the world<div>
+<div>[ref]
+</pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	
+Hey Jude (mitsing)	<div><a href=https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e>https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e</a>
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	
+Hey Jude (mitsing)	<div><a href=https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e>https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e</a><div>
+<div>Artist: Beatles<div>
+<div>
+key: F<div>
+tempo: 70 bpm
+<div>I       V         I          IV     I        V       I
+IV  (bass down to third of bass)   V          I
+I       VIIb           IV          I
+<div><div> <div><div>Hey Jude, don't make it bad.
+Take a sad song and make it better.
+Remember to let her into your heart,
+Then you can start to make it better.
+<div>
+<div>Hey Jude, don't be afraid.
+You were made to go out and get her.
+The minute you let her under your skin,
+Then you begin to make it better.
+<div>
+<div>
+<div>And anytime you feel the pain, hey Jude, refrain,
+Don't carry the world upon your shoulders.
+For well you know that it's a fool who plays it cool
+By making his world a little colder.
+<div>
+<div>
+<div>Hey Jude, don't let me down.
+You have found her, now go and get her.
+Remember to let her into your heart,
+Then you can start to make it better.
+<div>
+<div>
+<div>So let it out and let it in, hey Jude, begin,
+You're waiting for someone to perform with.
+And don't you know that it's just you, hey Jude, you'll do,
+The movement you need is on your shoulder.
+<div>
+<div>
+<div>Hey Jude, don't make it bad.
+Take a sad song and make it better.
+Remember to let her under your skin,
+Then you'll begin to make it
+Better better better better better better, oh.
+<div>
+<div>Na na na nananana, nannana, hey Jude...
+</pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	<div>
+With a little help (mitsing)
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	<div>
+With a little help (mitsing)	<div><div>
+<div><a href=https://open.spotify.com/track/2RnPATK99oGOZygnD2GTO6>https://open.spotify.com/track/2RnPATK99oGOZygnD2GTO6</a>
+<div>
+<div>Artist: Beatles<div>
+<div>
+key: G<div>
+tempo: 105bpm
+<div>
+<div>I       V      ii     V   I<div>VIIb     IV       I<div>vi     II     I     VIIb    IV  <div>
+<div><div>What would you think if I sang out of tune?
+Would you stand up and walk out on me?
+Lend me your ears and I'll sing you a song
+And I'll try not to sing out of key<div>
+<div>Oh, I get by with a little help from my friends
+Mmm, I get high with a little help from my friends
+Ooh, I'm gonna try with a little help from my friends<div>
+<div>What do I do when my love is away?
+(Does it worry you to be alone?)
+How does it feel by the end of the day?
+(Are you sad because you're on your own?)<div>
+<div>No, I get by with a little help from my friends
+Mm, I get high with a little help from my friends
+Ooh, I'm gonna try with a little help from my friends<div>
+<div>[bridge]<div>Do you need anybody?
+I need somebody to love
+(Could it be anybody?)
+I want somebody to love<div>Yes, I'm certain that it happens all the time
+(What do you see when you turn out the light?)
+I can't tell you but I know it's mine<div>
+<div>Oh, I get by with a little help from my friends
+Mm, I get high with a little help from my friends
+Ooh, I'm gonna try with a little help from my friends<div>
+<div>Do you need anybody?
+I just need someone to love
+(Could it be anybody?)
+I want somebody to love<div>
+<div>Oh, I get by with a little help from my friends
+Mm, I'm gonna try with a little help from my friends
+Ooh, I get high with a little help from my friends
+Yes, I get by with a little help from my friends
+With a little help from my friends<div>
+<div>
+
+</pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+
+
+        <li onclick="toggleDetails(this)">
+            Robbie Williams<div> (1)
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	<div>
+Angels (mitsing)
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	<div>
+Angels (mitsing)	<div><div><div><a href=https://open.spotify.com/track/1M2nd8jNUkkwrc1dgBPTJz?si=44ce21cfe2b64284>https://open.spotify.com/track/1M2nd8jNUkkwrc1dgBPTJz?si=44ce21cfe2b64284</a><div>
+<div>Artist: Robbie Williams<div>
+<div>
+key: E / G<div>
+tempo: 80bpm
+<div>I      IV       vi       V<div>ii     IV       vi        IV<div>bVII    IV      I   bVII     IV    I<div>
+<div><div>I       vi        IV         I    (*2)<div>ii      bVII      IV       I<div>
+<div><div>v      IV       I<div>
+<div>I sit and waitDoes an angel contemplate my fate
+And do they know
+The places where we go When we're grey and old
+<div>'Cause I have been told
+That salvation lets their wings unfold<div>
+<div><div>So when I'm lying in my bed
+<div>Thoughts running through my head
+And I feel the love is dead
+I'm loving angels instead<div>
+<div>And through it all she offers me protection
+A lot of love and affection
+Whether I'm right or wrong
+And down the waterfall
+Wherever it may take me
+I know that life won't break me
+When I come to call, she won't forsake me
+I'm loving angels instead<div>
+<div><div>When I'm feeling weak
+<div>And my pain walks down a one way street
+I look above<div>And I know I'll always be blessed with love<div>
+<div><div>And as the feeling grows
+She breathes flesh to my bones
+And when love is dead<div>I'm loving angels instead<div>
+<div>[ref]
+</pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+
+
+        <li onclick="toggleDetails(this)">
+            not_set (4)
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">#separator:tab
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">#html:true
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">#notetype column:1
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">#deck column:2
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+<h2>Sorted by key (N = 5)</h2>
+
+        <li onclick="toggleDetails(this)">
+            <p style="color: red;">C (1)</p>
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	<div>
+Imagine (mitsing)
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	<div>
+Imagine (mitsing)	<div><div><div><div><a href=https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=07d245472b3b4488>https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9?si=07d245472b3b4488</a><div>
+<div>Artist: Beatles<div>
+<div>
+key: C<div>
+tempo: 85bpm<div>
+I     Imaj7       IV (chromatic back to root)<div>IV    vi      ii     IV      V     V7 (walk down bass)<div>IV     V     I     V(vi)<div>
+<div>Imagine there's no heaven
+<div><div>It's easy if you try<div>No hell below us<div>Above us, only sky<div>Imagine all the people<div>Livin' for today<div>
+<div>Imagine there's no countries<div>It isn't hard to do<div>Nothing to kill or die for<div>And no religion, too<div>Imagine all the people<div>Livin' life in peace<div>
+<div>You may say I'm a dreamer
+<div>But I'm not the only one<div>I hope someday you'll join us<div>And the world will be as one<div>
+Imagine no possessions<div>I wonder if you can<div>No need for greed or hunger<div>A brotherhood of man<div>Imagine all the people<div>Sharing all the world<div>
+<div>[ref]
+</pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+
+
+        <li onclick="toggleDetails(this)">
+            <p style="color: red;">E / G (1)</p>
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	<div>
+Angels (mitsing)
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	<div>
+Angels (mitsing)	<div><div><div><a href=https://open.spotify.com/track/1M2nd8jNUkkwrc1dgBPTJz?si=44ce21cfe2b64284>https://open.spotify.com/track/1M2nd8jNUkkwrc1dgBPTJz?si=44ce21cfe2b64284</a><div>
+<div>Artist: Robbie Williams<div>
+<div>
+key: E / G<div>
+tempo: 80bpm
+<div>I      IV       vi       V<div>ii     IV       vi        IV<div>bVII    IV      I   bVII     IV    I<div>
+<div><div>I       vi        IV         I    (*2)<div>ii      bVII      IV       I<div>
+<div><div>v      IV       I<div>
+<div>I sit and waitDoes an angel contemplate my fate
+And do they know
+The places where we go When we're grey and old
+<div>'Cause I have been told
+That salvation lets their wings unfold<div>
+<div><div>So when I'm lying in my bed
+<div>Thoughts running through my head
+And I feel the love is dead
+I'm loving angels instead<div>
+<div>And through it all she offers me protection
+A lot of love and affection
+Whether I'm right or wrong
+And down the waterfall
+Wherever it may take me
+I know that life won't break me
+When I come to call, she won't forsake me
+I'm loving angels instead<div>
+<div><div>When I'm feeling weak
+<div>And my pain walks down a one way street
+I look above<div>And I know I'll always be blessed with love<div>
+<div><div>And as the feeling grows
+She breathes flesh to my bones
+And when love is dead<div>I'm loving angels instead<div>
+<div>[ref]
+</pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+
+
+        <li onclick="toggleDetails(this)">
+            <p style="color: red;">F (1)</p>
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	
+Hey Jude (mitsing)	<div><a href=https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e>https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e</a>
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	
+Hey Jude (mitsing)	<div><a href=https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e>https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU?si=32ed5059be94455e</a><div>
+<div>Artist: Beatles<div>
+<div>
+key: F<div>
+tempo: 70 bpm
+<div>I       V         I          IV     I        V       I
+IV  (bass down to third of bass)   V          I
+I       VIIb           IV          I
+<div><div> <div><div>Hey Jude, don't make it bad.
+Take a sad song and make it better.
+Remember to let her into your heart,
+Then you can start to make it better.
+<div>
+<div>Hey Jude, don't be afraid.
+You were made to go out and get her.
+The minute you let her under your skin,
+Then you begin to make it better.
+<div>
+<div>
+<div>And anytime you feel the pain, hey Jude, refrain,
+Don't carry the world upon your shoulders.
+For well you know that it's a fool who plays it cool
+By making his world a little colder.
+<div>
+<div>
+<div>Hey Jude, don't let me down.
+You have found her, now go and get her.
+Remember to let her into your heart,
+Then you can start to make it better.
+<div>
+<div>
+<div>So let it out and let it in, hey Jude, begin,
+You're waiting for someone to perform with.
+And don't you know that it's just you, hey Jude, you'll do,
+The movement you need is on your shoulder.
+<div>
+<div>
+<div>Hey Jude, don't make it bad.
+Take a sad song and make it better.
+Remember to let her under your skin,
+Then you'll begin to make it
+Better better better better better better, oh.
+<div>
+<div>Na na na nananana, nannana, hey Jude...
+</pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+
+
+        <li onclick="toggleDetails(this)">
+            <p style="color: red;">G (1)</p>
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">Basic	__lyrics_mitsingkonzert	<div>
+With a little help (mitsing)
+                    <div class="details">
+                       <pre>Basic	__lyrics_mitsingkonzert	<div>
+With a little help (mitsing)	<div><div>
+<div><a href=https://open.spotify.com/track/2RnPATK99oGOZygnD2GTO6>https://open.spotify.com/track/2RnPATK99oGOZygnD2GTO6</a>
+<div>
+<div>Artist: Beatles<div>
+<div>
+key: G<div>
+tempo: 105bpm
+<div>
+<div>I       V      ii     V   I<div>VIIb     IV       I<div>vi     II     I     VIIb    IV  <div>
+<div><div>What would you think if I sang out of tune?
+Would you stand up and walk out on me?
+Lend me your ears and I'll sing you a song
+And I'll try not to sing out of key<div>
+<div>Oh, I get by with a little help from my friends
+Mmm, I get high with a little help from my friends
+Ooh, I'm gonna try with a little help from my friends<div>
+<div>What do I do when my love is away?
+(Does it worry you to be alone?)
+How does it feel by the end of the day?
+(Are you sad because you're on your own?)<div>
+<div>No, I get by with a little help from my friends
+Mm, I get high with a little help from my friends
+Ooh, I'm gonna try with a little help from my friends<div>
+<div>[bridge]<div>Do you need anybody?
+I need somebody to love
+(Could it be anybody?)
+I want somebody to love<div>Yes, I'm certain that it happens all the time
+(What do you see when you turn out the light?)
+I can't tell you but I know it's mine<div>
+<div>Oh, I get by with a little help from my friends
+Mm, I get high with a little help from my friends
+Ooh, I'm gonna try with a little help from my friends<div>
+<div>Do you need anybody?
+I just need someone to love
+(Could it be anybody?)
+I want somebody to love<div>
+<div>Oh, I get by with a little help from my friends
+Mm, I'm gonna try with a little help from my friends
+Ooh, I get high with a little help from my friends
+Yes, I get by with a little help from my friends
+With a little help from my friends<div>
+<div>
+
+</pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+
+
+        <li onclick="toggleDetails(this)">
+            <p style="color: red;">not_set (4)</p>
+<!--            <div class="details">Here all songs to this Artist</div>    -->
+            <ul class="nested-list">
+
+		<li onclick="toggleDetails(this)">#separator:tab
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">#html:true
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">#notetype column:1
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+		<li onclick="toggleDetails(this)">#deck column:2
+                    <div class="details">
+                       <pre></pre>
+                    </div>
+                </li>
+
+
+            </ul>
+        </li>
+
+
+    </ul>
+
+    <script>
+
+
+        function toggleDetails(listItem) {
+            const details = listItem.querySelector('.details');
+            if (details && (details.style.display === 'none' || details.style.display === '')) {
+                details.style.display = 'block';
+            } else if (details) {
+                details.style.display = 'none';
+            }
+
+            const nestedList = listItem.querySelector('.nested-list');
+            if (nestedList && (nestedList.style.display === 'none' || nestedList.style.display === '')) {
+                nestedList.style.display = 'block';
+            } else if (nestedList) {
+                nestedList.style.display = 'block';
+            }
+
+            // Prevent event propagation to parent list items
+            event.stopPropagation();
+        }
+    </script>
+</body>
+</html>
+<h2>Internal</h1><br>outfile: __lyrics_mitsingkonzert.txt.html
+<br>perl-script: /usr/bin/perl /Users/stephanripke//git_little_helpers/my.anki_lyircs_html __lyrics_mitsingkonzert.txt
